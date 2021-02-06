@@ -55,7 +55,7 @@ body {
 }
 @media only screen and (max-width: 1199.98px) {
     .logo-text {
-      display: block;  
+      display: flex;  
     color: white;
     font-size: 2.5rem;
     margin: 0;
@@ -764,7 +764,7 @@ ul li:hover,ul li:focus,ul li:active{
 
 .footer-logo-container {
     height: 12vh;
-    margin-left: 10%;
+    margin-left: 5%;
     display: flex;
     flex-direction: row;
 
@@ -826,7 +826,6 @@ ul li:hover,ul li:focus,ul li:active{
     color: hsl(176, 68%, 64%);
 }
 .unique-logo-text{
-    display: flex;
     justify-content: center;
     align-items: center;
 }
